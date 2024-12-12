@@ -1,0 +1,22 @@
+button {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.active-button {
+  background-color: #707070a6;
+}
+
+.inactive-button {
+  background-color: #191919;
+}
+
+button p {
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #707070a6;
+  transition-duration: 300ms;
+}

@@ -1,0 +1,33 @@
+<div class="flex flex-col">
+  <div class="flex mt-20 justify-around">
+    <div class="flex flex-col ml-32 mr-10 mt-6">
+      <p class="text-6xl mb-4 font-primary">Our Work</p>
+      <div class="bg-black border-2 w-32 h-2 my-8"></div>
+    </div>
+    <p class="text-black font-secondry max-w-lg mt-6 text-xl">
+      “Will craft a masterpiece that resonates with your soul and take your
+      goals to new heights.“
+    </p>
+  </div>
+  <div class="flex justify-center my-10">
+    @for (item of items; track $index) {
+      <div class="hover-container">
+        <div class="hover-card">
+          <img src="young-man.jpg" alt="Image" class="card-image" />
+          <div class="card-overlay">
+            <img
+              src="play-circle.svg"
+              alt="play video"
+              class="w-20 h-20 card-text"
+            />
+            <span class="card-text"
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              eaque qui ab quod reprehenderit perferendis natus, incidunt culpa
+              tenetur accusamus ex volup</span
+            >
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

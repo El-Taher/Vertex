@@ -1,0 +1,102 @@
+<div class="flex mt-20 px-32 bg-black w-full">
+  <div class="flex flex-col ml-32 mr-10 mt-6">
+    <p class="text-6xl mb-4 font-primary text-white">Our Services</p>
+    <div class="bg-white border-2 w-32 h-2 my-8"></div>
+    <button
+      (click)="onMotionGraphic()"
+      [ngClass]="motionGraphic ? 'active-button' : 'inactive-button'"
+      class="flex flex-col"
+    >
+      <p class="text-primary font-secondry px-3 font-bold text-2xl mb-7">
+        2D Motion Graphic videos
+      </p>
+      <p class="text-white font-secondry px-3 text-sm">
+        We specialize in creating visually stunning animations for
+        <br />
+        educational presentations, marketing materials, and more.
+      </p>
+    </button>
+    <button
+      class="flex flex-col"
+      (click)="onInfographic()"
+      [ngClass]="infographic ? 'active-button' : 'inactive-button'"
+    >
+      <p class="text-primary font-secondry px-3 font-bold text-2xl mb-7">
+        Animated infographic Presentations
+      </p>
+      <p class="text-white font-secondry px-3 text-sm">
+        We specialize in creating visually stunning animations for
+        <br />
+        educational presentations, marketing materials, and more.
+      </p>
+    </button>
+    <button
+      class="flex flex-col"
+      (click)="onWhiteboard()"
+      [ngClass]="whiteboard ? 'active-button' : 'inactive-button'"
+    >
+      <p class="text-primary font-secondry px-3 font-bold text-2xl mb-7">
+        Whiteboard Animation
+      </p>
+      <p class="text-white font-secondry px-3 text-sm">
+        We specialize in creating visually stunning animations for
+        <br />
+        educational presentations, marketing materials, and more.
+      </p>
+    </button>
+  </div>
+  <div class="flex flex-col">
+    <p class="text-white font-secondry max-w-lg mt-6 text-xl">
+      Spark curiosity and elevate your business engagement through dynamic
+      visual symphonies of motion graphic.
+    </p>
+    @if (motionGraphic) {
+      <div class="flex w-full h-full items-center justify-center my-8">
+        <div class="relative">
+          <img src="anime-landscape.png" alt="anime background" />
+        </div>
+        <img
+          src="play-circle.svg"
+          alt="play video"
+          class="w-20 h-20 absolute"
+        />
+      </div>
+    }
+    @if (infographic) {
+      <div class="flex w-full h-full items-center justify-center my-8">
+        <iframe
+          width="520"
+          height="294"
+          src="https://www.youtube.com/embed/XHOmBV4js_E"
+          title="Video Placeholder"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    }
+    @if (whiteboard) {
+      <div class="flex w-full h-full items-center justify-center my-8">
+        <div class="relative">
+          <img src="anime-landscape.png" alt="anime background" />
+        </div>
+        <img
+          src="play-circle.svg"
+          alt="play video"
+          class="w-20 h-20 absolute"
+        />
+      </div>
+    }
+  </div>
+</div>
+<div class="bg-primary flex justify-around py-14 px-5 mb-10">
+  <p class="text-white text-xl font-bold font-sans p-2">
+    We are very proud to be serving our local area for over 35 years!
+  </p>
+  <a
+    href="#"
+    class="text-white text-lg font-sans border-2 p-2 hover:text-slate-200 transition duration-0 hover:duration-300"
+    >CALL 929-242-6868</a
+  >
+</div>
