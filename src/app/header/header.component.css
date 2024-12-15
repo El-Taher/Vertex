@@ -2,7 +2,7 @@ a {
   padding: 1rem;
 }
 
-.home {
+a.active {
   color: #ee6c4e;
 }
 

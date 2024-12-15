@@ -1,0 +1,7 @@
+button:hover {
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
+  border-width: 1px;
+  border-color: blue;
+}
