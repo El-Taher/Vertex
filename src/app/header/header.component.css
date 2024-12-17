@@ -31,3 +31,13 @@ a.active {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}

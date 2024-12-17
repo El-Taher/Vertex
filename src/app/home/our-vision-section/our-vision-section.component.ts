@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-our-vision-section',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './our-vision-section.component.html',
-  styleUrl: './our-vision-section.component.css'
+  styleUrl: './our-vision-section.component.css',
 })
-export class OurVisionSectionComponent {
-
-}
+export class OurVisionSectionComponent {}

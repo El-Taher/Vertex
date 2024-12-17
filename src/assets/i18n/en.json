@@ -1,0 +1,76 @@
+{
+  "HEADER": {
+    "NAVBAR": "Home"
+  },
+  "HOME-HEADER": {
+    "TITLE": "Bring your vision to life",
+    "SUBTITLE": "Experience the power of personalized motion graphic, infographics & storytelling whiteboard animations now. Let us create something extraordinary together.",
+    "BUTTON-1": "START NOW",
+    "BUTTON-2": "WATCH NOW"
+  },
+  "VISION": {
+    "TITLE": "Our Vision",
+    "SUBTITLE": "To create an environment where our team empowered to design exceptional motion graphics that elevate our company and industry."
+  },
+  "SERVICES": {
+    "TITLE": "Our Services",
+    "SUBTITLE": "Spark curiosity and elevate your business engagement through dynamic visual symphonies of motion graphic.",
+    "SERVICE-TITLE-1": "2D Motion Graphic videos",
+    "SERVICE-SUBTITLE-1": "We specialize in creating visually stunning animations for educational presentations, marketing materials, and more.",
+    "SERVICE-TITLE-2": "Animated infographic Presentations",
+    "SERVICE-SUBTITLE-2": "We specialize in creating visually stunning animations for educational presentations, marketing materials, and more.",
+    "SERVICE-TITLE-3": "Whiteboard Animation",
+    "SERVICE-SUBTITLE-3": "We specialize in creating visually stunning animations for educational presentations, marketing materials, and more.",
+    "PARAGRAPH": "We are very proud to be serving our local area for over 35 years!",
+    "CALL": "CALL 929-242-6868"
+  },
+  "WORK": {
+    "TITLE": "Our Work",
+    "SUBTITLE": "“Will craft a masterpiece that resonates with your soul and take your goals to new heights.“",
+    "DETAILS": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum eaque qui ab quod reprehenderit perferendis natus, incidunt culpa tenetur accusamus ex volup"
+  },
+  "USERS": {
+    "TITLE": "what our happy users say",
+    "SUBTITLE": "Motion graphics stimulate our senses, capturing attention and keeping viewers hooked.",
+    "DETAILS": "We recommend Vertex Motions. At first, We were hesitant to invest in animations, but Vertex Motions convinced us that it was a worthwhile investment. Their animations have generated a significant ROI for our business. We've seen a 25% increase in conversions and a 10% increasein customer satisfaction.",
+    "NAME": "John Doe",
+    "JOB": "Designer"
+  },
+  "WHY": {
+    "TITLE": "WHY US",
+    "SUBTITLE-1": "Need a trusted partner to bring your animated vision to life? ",
+    "SUBTITLE-2": "Vertex Motions",
+    "SUBTITLE-3": " is your expert choice.",
+    "FIRST-SECTION-P-1": "Window to Your World of Creation",
+    "FIRST-SECTION-P-2": "Tracking Progress",
+    "FIRST-SECTION-P-3": "Keep your project on track with updates every step of the way through our Online platform.",
+    "SECOND-SECTION-P-1": "A work of art from start to finish",
+    "SECOND-SECTION-P-2": "Exceptional َQuality",
+    "SECOND-SECTION-P-3": "Experience the highest level of animation excellence.",
+    "THIRD-SECTION-P-1": "A Tailor-Made Journey to Succes",
+    "THIRD-SECTION-P-2": "Customised Solutions &proven results",
+    "THIRD-SECTION-P-3": "Discover solutions that meet your specific needs and goals."
+  },
+  "LEARN": {
+    "TITLE": "Learn with Us",
+    "SUBTITLE": "A world where your vision takes flight and creativity knows no bounds.",
+    "DETAILS": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "READ": "Read",
+    "P-1": "Understanding 2D motion graphics.",
+    "P-2": "Types of 2D motion graphics.",
+    "P-3": "How 2D motion graphics improve brand awareness."
+  },
+  "REQUEST": {
+    "TITLE": "Hey! We are ready to Consult you",
+    "HOLDER-1": "First and last name",
+    "HOLDER-2": "Email",
+    "HOLDER-3": "Your Project Details",
+    "OPTION-1": "Graphic Design",
+    "OPTION-2": "Front End",
+    "P-1": "My name is",
+    "P-2": "and I’m interested in",
+    "P-3": "Please Contact me",
+    "P-4": "Optionally, I’m sharing More:",
+    "SEND": "SEND REQUEST"
+  }
+}

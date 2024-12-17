@@ -1,22 +1,29 @@
-<div class="flex flex-col mt-16 mb-8 items-center" id="container">
-  <div class="flex items-center my-8">
-    <p class="text-6xl mr-16 font-bold font-primary">Learn with Us</p>
+<div class="flex flex-col mt-16 mb-8" id="container">
+  <div class="flex items-center justify-around my-8">
+    <p class="text-6xl mr-16 font-bold font-primary">
+      {{ 'LEARN.TITLE' | translate }}
+    </p>
     <p class="text-3xl font-secondry font-medium max-w-xl">
-      A world where your vision takes flight and creativity knows no bounds.
+      {{ 'LEARN.SUBTITLE' | translate }}
     </p>
   </div>
   @for (item of items; track $index) {
     <div
-      class="flex bg-white my-3 p-6 justify-around items-center rounded-3xl mt-10"
+      class="flex bg-white my-3 mx-44 p-6 justify-around items-center rounded-3xl mt-10"
     >
       <p class="text-3xl font-secondry font-medium max-w-sm">
-        {{ item }}
+        @if (item === 'Understanding') {
+          {{ 'LEARN.P-1' | translate }}
+        } @else if (item === 'Types') {
+          {{ 'LEARN.P-2' | translate }}
+        } @else if (item === 'How') {
+          {{ 'LEARN.P-3' | translate }}
+        }
       </p>
       <p class="text-base max-w-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        {{ 'LEARN.DETAILS' | translate }}
       </p>
-      <a href="#" class="text-primary">Read</a>
+      <a href="#" class="text-primary">{{ 'LEARN.READ' | translate }}</a>
     </div>
   }
 </div>

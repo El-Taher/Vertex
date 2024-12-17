@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home-header',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './home-header.component.html',
-  styleUrl: './home-header.component.css'
+  styleUrl: './home-header.component.css',
 })
-export class HomeHeaderComponent {
-
-}
+export class HomeHeaderComponent {}

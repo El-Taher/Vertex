@@ -1,20 +1,22 @@
 <div class="relative overflow-hidden">
   <img class="w-full" src="anime-world.jpg" alt="anime-world Image" />
   <div class="absolute inset-y-0 left-40 text-white flex flex-col mt-28">
-    <p class="text-7xl font-bold font-serif mb-4">Bring your vision to life</p>
+    <p class="text-7xl font-bold font-serif mb-4">
+      {{ 'HOME-HEADER.TITLE' | translate }}
+    </p>
     <p class="text-3xl mb-6 font-serif max-w-6xl">
-      Experience the power of personalized motion graphic, infographics &
-      storytelling whiteboard animations now. Let us create something
-      extraordinary together.
+      {{ 'HOME-HEADER.SUBTITLE' | translate }}
     </p>
     <div class="flex items-center mt-2">
       <button
         class="bg-primary rounded-full px-6 py-3 mr-8 text-3xl font-bold hover:text-slate-200 transition duration-0 hover:duration-300"
       >
-        START NOW
+        {{ 'HOME-HEADER.BUTTON-1' | translate }}
       </button>
       <a href="#" class="flex">
-        <span class="text-3xl font-bold mr-3">WATCH NOW</span>
+        <span class="text-3xl font-bold mr-3">{{
+          'HOME-HEADER.BUTTON-2' | translate
+        }}</span>
         <img src="play-circle.svg" alt="play video" class="w-10 h-10" />
       </a>
     </div>

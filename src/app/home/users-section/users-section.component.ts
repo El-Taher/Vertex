@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-users-section',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './users-section.component.html',
   styleUrl: './users-section.component.css',
 })

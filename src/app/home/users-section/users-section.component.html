@@ -1,8 +1,9 @@
 <div class="flex flex-col items-center justify-center my-10" id="container">
-  <p class="font-primary text-6xl font-bold my-5">what our happy users say</p>
+  <p class="font-primary text-6xl font-bold my-5">
+    {{ 'USERS.TITLE' | translate }}
+  </p>
   <p class="font-secondry text-2xl font-medium max-w-3xl text-center my-5">
-    Motion graphics stimulate our senses, capturing attention and keeping
-    viewers <span class="text-primary">hooked.</span>
+    {{ 'USERS.SUBTITLE' | translate }}
   </p>
   <div class="flex my-10">
     @for (item of items; track $index) {
@@ -10,11 +11,7 @@
         class="border-2 border-black flex flex-col items-center justify-center w-60 rounded-3xl mx-3"
       >
         <p class="max-w-sm p-2 text-xl text-center text-gray-500 font-serif">
-          "We recommend Vertex Motions. At first, We were hesitant to invest in
-          animations, but Vertex Motions convinced us that it was a worthwhile
-          investment. Their animations have generated a significant ROI for our
-          business. We've seen a 25% increase in conversions and a 10% increase
-          in customer satisfaction."
+          {{ 'USERS.DETAILS' | translate }}
         </p>
         <div class="flex flex-col items-center justify-center">
           <img
@@ -22,8 +19,12 @@
             alt="avatar"
             class="rounded-full w-14 h-14 my-3"
           />
-          <p class="text-lg text-gray-500 font-serif">John Doe</p>
-          <p class="text-sm text-gray-500 font-serif">Designer</p>
+          <p class="text-lg text-gray-500 font-serif">
+            {{ 'USERS.NAME' | translate }}
+          </p>
+          <p class="text-sm text-gray-500 font-serif">
+            {{ 'USERS.JOB' | translate }}
+          </p>
         </div>
       </div>
     }

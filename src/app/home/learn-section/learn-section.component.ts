@@ -1,16 +1,13 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-learn-section',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './learn-section.component.html',
   styleUrl: './learn-section.component.css',
 })
 export class LearnSectionComponent {
-  items = [
-    'Understanding 2D motion graphics.',
-    'Types of 2D motion graphics.',
-    'How 2D motion graphics improve brand awareness.',
-  ];
+  items = ['Understanding', 'Types', 'How'];
 }
